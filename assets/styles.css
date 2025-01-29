@@ -3,25 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #b4b4f8;
+    font-family: "Mulish", serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
     color: #333;
     line-height: 1.6;
-    padding: 20px;
 }
 /* Sección header */
 header {
     background-color: rgb(223, 141, 141);
     color: white;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
+    position: relative;
 }
+/* Ajustes de imagen */
+.profile-img {
+    margin-top: 100px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    position: absolute;
+    top: 20px;
+    left: 46%;
+    transform: translateX(-50);
+}
+
 header h1 {
-    margin-bottom: 5px;
+    margin-bottom: 180px;
     font-size: 36px;
 }
 header p {
+    margin-bottom: 10px;
     font-size: 16px;
 }
 /* Sección sobre mi */
@@ -70,4 +89,40 @@ header p {
 }
 .skill li {
     margin-bottom: 10px;
+}
+/* Sección Portafolio */
+.portafolio {
+    margin-top: 20px;
+}
+.portafolio-item {
+    display: inline-block;
+    width: 48%;
+    margin-right: 2%;
+    background-color: aquamarine;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rfba (0,0,0, 0.1);
+    transition: transform 0.3s ease;
+}
+.portafolio-item:hover {
+    transform: scale(1.05);
+}
+.portafolio-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+.portafolio-item h3 {
+    color: chartreuse;
+    margin-top: 10px;
+}
+.portafolio-item p {
+    font-size: 14px;
+}
+/* Sección Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: deeppink;
+    color: white;
 }
