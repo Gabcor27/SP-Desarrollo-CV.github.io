@@ -1,138 +1,75 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body {
-    font-family: "Mulish", serif;
-    min-height: 100vh;
+    font-family: 'Mulish', sans-serif;
     display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-    color: #333;
-    line-height: 1.6;
-}
-/* Sección header */
-header {
-    background-color: rgb(223, 141, 141);
-    color: white;
-    padding: 50px;
-    text-align: center;
-    position: relative;
-}
-/* Ajustes de imagen */
-.profile-img {
-    margin-top: 100px;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid white;
-    position: absolute;
-    top: 20px;
-    left: 46%;
-    transform: translateX(-50);
+    min-height: 100vh;
+    background-color: #f4f4f9;
 }
 
-header h1 {
-    margin-bottom: 180px;
-    font-size: 36px;
-}
-header p {
-    margin-bottom: 10px;
+.sidebar {
+    color: white;
     font-size: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 100%;
+    background-color: #f78f5f;
+    padding-top: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
 }
-/* Sección sobre mi */
-.about{
-    background-color: antiquewhite;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba (0,0,0,0.1);
+
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
 }
-.about h2 {
-    color: brown;
+
+.logo-img {
+    width: 240px;
+    height: auto;
+    border-radius: 50%;
 }
-/* Sección Experiencia Laboral */
-.experience {
-    margin-top: 20px;
-    margin: 20px;
-}
-.job {
-    background-color: #ffffff;
-    margin-bottom: 15px;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rfba (0,0,0, 0.1);
-}
-.job h3 {
-    color: brown;
-}
-.job ul {
-    list-style: square;
+.contacto {
+    color: darkred;
+    background-color:#f78f5f;
     padding: 10px;
+    margin-top: 20px;
+    line-height: 2.4;
+}
+.contacto h3 {
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+.info-contacto {
+    font-size: 16px;
+    text-align:justify;
+    padding: 10px;
+    margin: 8px;
+    color: white;
+}
+.skills {
+    font-size: 16px;
+    text-align:justify;
+    padding: 10px;
+    margin: 8px;
+    line-height: 2.0;
 }
 .titulo {
-    color: brown;
-}
-/* Sección Educacion */
-.education {
+    color: darkred;
+    background-color: antiquewhite;
     margin-top: 20px;
-    margin: 10px;
-    color: white;
+    line-height: 2.4;
+    text-align:center;
 }
-.edu {
-    background-color: rgb(223, 141, 141);
-    margin-top: 15px;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rfba (0,0,0, 0.1);
-}
-/* Sección Habilidades */
-.skills {
-    margin-top: 20px;
-}
-.skill ul {
-    list-style: none;
-    padding: 0;
-}
-.skill li {
-    margin-bottom: 10px;
-}
-/* Sección Portafolio */
-.portafolio {
-    margin-top: 20px;
-}
-.portafolio-item {
-    display: inline-block;
-    width: 48%;
-    margin-right: 2%;
-    background-color: aquamarine;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rfba (0,0,0, 0.1);
-    transition: transform 0.3s ease;
-}
-.portafolio-item:hover {
-    transform: scale(1.05);
-}
-.portafolio-item img {
-    width: 100%;
-    border-radius: 8px;
-}
-.portafolio-item h3 {
-    color: chartreuse;
-    margin-top: 10px;
-}
-.portafolio-item p {
-    font-size: 14px;
-}
-/* Sección Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    background-color: rgb(223, 141, 141);
-    color: white;
+.skills ul {
+    list-style: square;
+    padding: 10px;
 }
