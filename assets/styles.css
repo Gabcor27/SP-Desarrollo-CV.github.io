@@ -1,10 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
     font-family: 'Mulish', sans-serif;
@@ -19,7 +17,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 320px;
+    width: 280px;
     height: 100%;
     background-color: #f78f5f;
     padding-top: 20px;
@@ -41,7 +39,7 @@ body {
     background-color:#f78f5f;
     padding: 10px;
     margin-top: 20px;
-    line-height: 2.4;
+    line-height: 1.8;
 }
 .contacto h3 {
     font-size: 20px;
@@ -73,13 +71,14 @@ body {
     list-style: square;
     padding: 10px;
 }
-.content {
-    margin-left: 260px;
-    padding: 20px;
+.content-about {
+    margin-left: 300px;
+    padding: 10px;
+    margin-top: 20px;
 }
 .about-box {
-    width: 1400px;
-    background-color: #ffb593;
+    width: auto;
+    background-color: #ffffff;
     border: 2px solid wheat;
     border-radius: 8px;
     padding: 50px;
@@ -96,4 +95,66 @@ body {
     font-size: 16px;
     line-height: 1.6;
     color: #333;
+}
+.info-sidebar {
+    font-size: 26px;
+    font-family: font-family: "Charm", serif;
+}
+.content-about, .content-esperience, .content-education, .content-skills {
+    margin-bottom: 20px;
+}
+.content-esperience {
+    margin-left: 290px;
+    padding: 10px;
+}
+.job {
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rfba (0,0,0, 0.1);
+}
+.job h3 {
+    color: brown;
+}
+.job ul {
+    list-style: square;
+    padding: 10px;
+}
+.titulo {
+    color: brown;
+    justify-content: center;
+}
+.content-education {
+    margin-left: 290px;
+    padding: 10px;
+}
+.education {
+    margin-top: 20px;
+    margin: 20px;
+    color: white;
+}
+.edu {
+    background-color:white;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rfba (0,0,0, 0.1);
+}
+.edu h3 {
+    color: brown;
+}
+.content-skills {
+    margin-left: 290px;
+    padding: 10px;
+}
+.habilidades-tec {
+    background-color: white;
+    margin-top: 20px;
+    margin: 20px;
+    color: #333;
+}
+.habilidades-tec ul {
+    list-style: square;
+    padding: 10px;
 }
