@@ -100,7 +100,7 @@ body {
     font-size: 26px;
     font-family: font-family: "Charm", serif;
 }
-.content-about, .content-esperience, .content-education, .content-skills {
+.content-about, .content-esperience, .content-education, .content-skills, .portafolio-container {
     margin-bottom: 20px;
 }
 .content-esperience {
@@ -151,10 +151,51 @@ body {
 .habilidades-tec {
     background-color: white;
     margin-top: 20px;
-    margin: 20px;
     color: #333;
 }
 .habilidades-tec ul {
     list-style: square;
+    padding: 20px;
+}
+.habilidades-tec li {
     padding: 10px;
+    margin: 10px;
+}
+.portafolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 290px;
+    padding: 10px;
+}
+
+.portafolio-item {
+    width: calc(33.33% - 20px);
+    background-color: #fff;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.portafolio-item:hover {
+    transform: translateY(-10px);
+}
+
+.portafolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+.portafolio-item h3 {
+    font-size: 18px;
+    color: #3498db;
+    padding: 15px;
+}
+
+.portafolio-item p {
+    padding: 0 15px 15px;
+    color: #333;
+    font-size: 14px;
 }
