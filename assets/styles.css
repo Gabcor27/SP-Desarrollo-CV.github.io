@@ -19,7 +19,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 500px;
+    width: 320px;
     height: 100%;
     background-color: #f78f5f;
     padding-top: 20px;
@@ -58,9 +58,9 @@ body {
 .skills {
     font-size: 16px;
     text-align:justify;
-    padding: 10px;
-    margin: 8px;
-    line-height: 2.0;
+    padding: 14px;
+    margin: 6px;
+    line-height: 1.6;
 }
 .titulo {
     color: darkred;
@@ -72,4 +72,28 @@ body {
 .skills ul {
     list-style: square;
     padding: 10px;
+}
+.content {
+    margin-left: 260px;
+    padding: 20px;
+}
+.about-box {
+    width: 1400px;
+    background-color: #ffb593;
+    border: 2px solid wheat;
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0px 4px 10px egba (0,0,0,0.1);
+    margin-top: 10px;
+}
+.about-box h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: darkred;
+}
+.about-box p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
 }
