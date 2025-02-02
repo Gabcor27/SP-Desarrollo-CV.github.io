@@ -8,7 +8,7 @@ body {
     font-family: 'Mulish', sans-serif;
     display: flex;
     min-height: 100vh;
-    background-color: #f4f4f9;
+    background-color: #b9b9ef;
 }
 
 .sidebar {
@@ -19,7 +19,7 @@ body {
     left: 0;
     width: 280px;
     height: 100%;
-    background-color: #f78f5f;
+    background-color: #d00dc3;
     padding-top: 20px;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -36,14 +36,14 @@ body {
 }
 .contacto {
     color: darkred;
-    background-color:#f78f5f;
+    background-color:#d00dc3;
     padding: 10px;
     margin-top: 20px;
     line-height: 1.8;
 }
 .contacto h3 {
     font-size: 20px;
-    background-color: antiquewhite;
+    background-color: #b9b9ef;;
 }
 
 .info-contacto {
@@ -51,7 +51,7 @@ body {
     text-align:justify;
     padding: 10px;
     margin: 8px;
-    color: white;
+    color: #b9b9ef;;
 }
 .skills {
     font-size: 16px;
@@ -61,8 +61,8 @@ body {
     line-height: 1.6;
 }
 .titulo {
-    color: darkred;
-    background-color: antiquewhite;
+    color: rgb(225, 217, 217);
+    background-color: #d00dc3;
     margin-top: 20px;
     line-height: 2.4;
     text-align:center;
@@ -123,7 +123,7 @@ body {
 }
 .titulo {
     display: flex;
-    color: brown;
+    color: rgb(240, 226, 226);
     justify-content:center;
     align-items: center;
 }
@@ -212,5 +212,5 @@ body {
     margin-left: 280px;
     color: white;
     margin-top: 40px;
-    background-color: #f78f5f;
+    background-color: #d00dc3;
 }
